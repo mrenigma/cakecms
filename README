@@ -1,70 +1,47 @@
-<div class="text install">
-    <h1>Installation</h1>
+Installation
     
-    <strong>Requirements</strong>
-    <p>
-        <ul>
-            <li>HTTP Server. For example: Apache. mod_rewrite is preferred, but by no means required.</li>
-            <li>PHP 5.2.8 or greater.</li>
-            <li>PDO extensions</li>
-        </ul>
-    </p>
-    <strong>Download CakeCMS</strong>
-    <div class="code">
-        Visit the main website http://www.cakecms.com.br and follow the “Download” link.
-    </div>
-    <p>OR</p>
-    <div class="code">
-        git clone git://github.com/cakephp/cakephp.git
-    </div>
-    <p></p>
-    <strong>Permissions</strong>
-    <p>
-        <div class="code">app/tmp</div>
-        <div class="code">app/webroot/files/</div>
-    </p>
-    <strong>Define Diretory</strong>
-    <p>The diretory default is /. If your aplication isseted in directory: /mysite/ <i>ex:www.example.com/mysite/</i>. Edit files: 
-        <div class="code">
-            app/webroot/js/admin/ckeditor/ckfinder/config.php | line: 67 '/app/webroot/files/uploads/' FOR '/mysite/cakecms/app/webroot/files/uploads/'
-        </div>
-    </p>
-    <strong>Database</strong>
-    <p>
-        <div class="code">
-            Import file app/cakecms.sql in database Mysql
-        </div>
-        <div class="code">
-            Set data in file app/Config/database.php <br /><br />
-            <i>
-            public $default = array(<br />
-                    'datasource' => 'Database/Mysql',<br />
-                    'persistent' => false,<br />
-                    'host' => 'localhost',<br />
-                    'login' => 'root',<br />
-                    'password' => '1234',<br />
-                    'database' => 'cakecms',<br />
-                    'prefix' => '',<br />
-                    //'encoding' => 'utf8',<br />
-            );<br />
-            </i>
-        </div>
-    </p>
-    <strong>Finishing</strong>
-    <p>
-        The developers contain special permissions in painel controll
-        <div class="code">
-            Acess admin: www.example.com/admin/ <br />
-            Username: dev<br />
-            password: cakecms<br />
-        </div>
-    </p>
-     <p>
+Requirements
+	HTTP Server. For example: Apache. mod_rewrite is preferred, but by no means required.
+	PHP 5.2.8 or greater.
+	PDO extensions.
+       
+Download CakeCMS
+	Visit the main website http://www.cakecms.com.br and follow the “Download” link.
+OR
+	git clone git://github.com/cakephp/cakephp.git
+
+Permission
+        app/tmp
+        app/webroot/files/
+
+Define Diretory
+	The diretory default is /. If your aplication isseted in directory: /mysite/ ex:www.example.com/mysite/. Edit files: 
+        app/webroot/js/admin/ckeditor/ckfinder/config.php | line: 67 '/app/webroot/files/uploads/' FOR '/mysite/cakecms/app/webroot/files/uploads/'
+        
+Database
+	Import file app/cakecms.sql in database Mysql
+        Set data in file app/Config/database.php
+
+           
+            public $default = array(
+                    'datasource' => 'Database/Mysql',
+                    'persistent' => false,
+                    'host' => 'localhost',
+                    'login' => 'root',
+                    'password' => '1234',
+                    'database' => 'cakecms',
+                    'prefix' => '',
+                    //'encoding' => 'utf8',
+            )
+
+Finishing
+	The developers contain special permissions in painel controll
+            Acess admin: www.example.com/admin/
+            Username: dev
+            password: cakecms
+        
         The user
-        <div class="code">
-            Acess admin: www.example.com/admin/ <br />
-            Username: admin<br />
-            password: cakecms<br />
-        </div>
-    </p>
-</div>
+            Acess admin: www.example.com/admin/
+            Username: admin
+            password: cakecms
+    
