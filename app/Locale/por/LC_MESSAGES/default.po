@@ -1,0 +1,1691 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: CAKECMS\n"
+"POT-Creation-Date: 2013-03-14 13:15-0300\n"
+"PO-Revision-Date: 2013-03-14 13:25-0300\n"
+"Last-Translator: \n"
+"Language-Team: Willy Chagas <willychagass@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+
+#: /Controller/CategoriesController.php:72;97
+#: /Controller/CommentsController.php:94
+#: /Controller/GalleriesController.php:125
+#: /Controller/UsersController.php:170
+msgid "The category has been saved."
+msgstr ""
+
+#: /Controller/CategoriesController.php:75;100
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/CategoriesController.php:91
+msgid "Invalid category"
+msgstr ""
+
+#: /Controller/CategoriesController.php:118
+#: /Controller/GalleriesController.php:143;166
+msgid "Invalid category."
+msgstr ""
+
+#: /Controller/CategoriesController.php:124
+msgid "Category deleted."
+msgstr ""
+
+#: /Controller/CategoriesController.php:127
+msgid "Category was not deleted."
+msgstr ""
+
+#: /Controller/CommentsController.php:74
+msgid "Waiting for this comment validation."
+msgstr ""
+
+#: /Controller/CommentsController.php:77
+msgid "Error while commenting on the post, check the required fields (*)."
+msgstr ""
+
+#: /Controller/CommentsController.php:110
+msgid "Invalid comment."
+msgstr ""
+
+#: /Controller/CommentsController.php:116
+msgid "Comment deleted."
+msgstr ""
+
+#: /Controller/CommentsController.php:119
+msgid "Comment was not deleted."
+msgstr ""
+
+#: /Controller/ContactsController.php:95
+#: /View/Emails/html/contact.ctp:4;19
+#: /View/Themed/Admin/Contacts/add.ctp:1
+msgid "Contact"
+msgstr ""
+
+#: /Controller/ContactsController.php:111
+msgid "Invalid contact."
+msgstr ""
+
+#: /Controller/ContactsController.php:117
+msgid "Contact deleted"
+msgstr ""
+
+#: /Controller/ContactsController.php:120
+msgid "Contact was not deleted."
+msgstr ""
+
+#: /Controller/GalleriesController.php:89
+msgid "The gallery has been saved."
+msgstr ""
+
+#: /Controller/GalleriesController.php:108
+msgid "The gallery could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/GalleriesController.php:128
+msgid "The comment could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/GalleriesController.php:149;172
+msgid "Gallery deleted"
+msgstr ""
+
+#: /Controller/GalleriesController.php:152;175
+msgid "Gallery was not deleted."
+msgstr ""
+
+#: /Controller/GroupsController.php:64;85
+msgid "The group has been saved"
+msgstr ""
+
+#: /Controller/GroupsController.php:67;88
+msgid "The group could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/GroupsController.php:81;108
+msgid "Invalid group"
+msgstr ""
+
+#: /Controller/GroupsController.php:111
+msgid "Group deleted"
+msgstr ""
+
+#: /Controller/GroupsController.php:114
+msgid "Group was not deleted."
+msgstr ""
+
+#: /Controller/ImagesController.php:114;148
+msgid "The images has been saved."
+msgstr ""
+
+#: /Controller/ImagesController.php:117
+msgid "The image could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/ImagesController.php:169;232
+msgid "Invalid image."
+msgstr ""
+
+#: /Controller/ImagesController.php:198
+msgid "The image has been saved."
+msgstr ""
+
+#: /Controller/ImagesController.php:243
+msgid "Image deleted."
+msgstr ""
+
+#: /Controller/ImagesController.php:249
+msgid "Image was not deleted."
+msgstr ""
+
+#: /Controller/InputsController.php:78;98
+msgid "The input has been saved."
+msgstr ""
+
+#: /Controller/InputsController.php:81;101
+msgid "The input could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/InputsController.php:117
+msgid "Invalid input."
+msgstr ""
+
+#: /Controller/InputsController.php:123
+msgid "input deleted"
+msgstr ""
+
+#: /Controller/InputsController.php:126
+msgid "input was not deleted."
+msgstr ""
+
+#: /Controller/OptionsController.php:67;87
+msgid "The option has been saved."
+msgstr ""
+
+#: /Controller/OptionsController.php:70;90
+msgid "The option could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/OptionsController.php:105
+msgid "Invalid option."
+msgstr ""
+
+#: /Controller/OptionsController.php:111
+msgid "Option deleted"
+msgstr ""
+
+#: /Controller/OptionsController.php:114
+msgid "Option was not deleted."
+msgstr ""
+
+#: /Controller/PagesController.php:184;253
+msgid "The page has been saved."
+msgstr ""
+
+#: /Controller/PagesController.php:187;256
+msgid "The page could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/PagesController.php:275
+msgid "Invalid page."
+msgstr ""
+
+#: /Controller/PagesController.php:283
+msgid "Page deleted."
+msgstr ""
+
+#: /Controller/PagesController.php:286
+msgid "Page was not deleted."
+msgstr ""
+
+#: /Controller/PositionsController.php:73;97
+msgid "The position has been saved."
+msgstr ""
+
+#: /Controller/PositionsController.php:76;100
+msgid "The position could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/PositionsController.php:91
+msgid "Invalid position"
+msgstr ""
+
+#: /Controller/PositionsController.php:117
+msgid "Invalid position."
+msgstr ""
+
+#: /Controller/PositionsController.php:123
+msgid "Position deleted."
+msgstr ""
+
+#: /Controller/PositionsController.php:126
+msgid "Position was not deleted."
+msgstr ""
+
+#: /Controller/PostsController.php:166;212
+msgid "The post has been saved."
+msgstr ""
+
+#: /Controller/PostsController.php:169;215
+msgid "The post could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/PostsController.php:236
+msgid "Invalid post."
+msgstr ""
+
+#: /Controller/TemplatesController.php:87;132
+msgid "The template has been saved."
+msgstr ""
+
+#: /Controller/TemplatesController.php:90;135
+msgid "The template could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/TemplatesController.php:105
+msgid "Invalid template"
+msgstr ""
+
+#: /Controller/TemplatesController.php:152
+msgid "Invalid template."
+msgstr ""
+
+#: /Controller/TemplatesController.php:158
+msgid "Template deleted."
+msgstr ""
+
+#: /Controller/TemplatesController.php:161
+msgid "Template was not deleted."
+msgstr ""
+
+#: /Controller/UsersController.php:119;132
+msgid "Invalid user"
+msgstr ""
+
+#: /Controller/UsersController.php:138
+msgid "The user has been saved."
+msgstr ""
+
+#: /Controller/UsersController.php:141;173
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/UsersController.php:156;159;163;197
+msgid "Invalid User"
+msgstr ""
+
+#: /Controller/UsersController.php:200
+msgid "User deleted"
+msgstr ""
+
+#: /Controller/UsersController.php:203
+msgid "Delete Error"
+msgstr ""
+
+#: /Controller/WidgetsController.php:74;94
+msgid "The widget has been saved."
+msgstr ""
+
+#: /Controller/WidgetsController.php:77;97
+msgid "The widget could not be saved. Please, try again."
+msgstr ""
+
+#: /Controller/WidgetsController.php:114
+msgid "Invalid widget."
+msgstr ""
+
+#: /Controller/WidgetsController.php:120
+msgid "Widget deleted"
+msgstr ""
+
+#: /Controller/WidgetsController.php:123
+msgid "Widget was not deleted."
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:111
+msgid "<success>Aco Update Complete</success>"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:156
+msgid "Deleted %s and all children"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:197
+msgid "Created Aco node: %s"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:232
+msgid "Deleted Aco node %s"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:242
+msgid "Better manage, and easily synchronize you application's ACO tree"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:244
+msgid "Add new ACOs for new controllers and actions. Does not remove nodes from the ACO table."
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:246
+msgid "Perform a full sync on the ACO table.Will create new ACOs or missing controllers and actions.Will also remove orphaned entries that no longer have a matching controller/action"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:250
+msgid "Verify the tree structure of either your Aco or Aro Trees"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:255
+msgid "The type of tree to verify"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:261
+msgid "Recover a corrupted Tree"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:266
+msgid "The type of tree to recover"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:285
+msgid "Tree is valid and strong"
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:302
+msgid "Tree has been recovered, or tree did not need recovery."
+msgstr ""
+
+#: /Plugin/AclExtras_1/Console/Command/AclExtrasShell.php:304
+msgid "<error>Tree recovery failed.</error>"
+msgstr ""
+
+#: /View/Emails/html/contact.ctp:21
+#: /View/Themed/Admin/Categories/add.ctp:19
+#: /View/Themed/Admin/Categories/edit.ctp:21
+#: /View/Themed/Admin/Comments/edit.ctp:14
+#: /View/Themed/Admin/Comments/view_admin.ctp:11
+#: /View/Themed/Admin/Contacts/add.ctp:3
+#: /View/Themed/Admin/Contacts/view_admin.ctp:9
+#: /View/Themed/Admin/Galleries/add.ctp:12
+#: /View/Themed/Admin/Galleries/add_iframe.ctp:8
+#: /View/Themed/Admin/Galleries/edit.ctp:14
+#: /View/Themed/Admin/Groups/add.ctp:12
+#: /View/Themed/Admin/Groups/edit.ctp:14
+#: /View/Themed/Admin/Groups/view_admin.ctp:14
+#: /View/Themed/Admin/Inputs/add.ctp:30
+#: /View/Themed/Admin/Inputs/edit.ctp:31
+#: /View/Themed/Admin/Inputs/view_admin.ctp:15
+#: /View/Themed/Admin/Menus/view_admin.ctp:14
+#: /View/Themed/Admin/Positions/add.ctp:13
+#: /View/Themed/Admin/Positions/edit.ctp:13
+#: /View/Themed/Admin/Positions/view_admin.ctp:14
+#: /View/Themed/Admin/Templates/add.ctp:13
+#: /View/Themed/Admin/Templates/edit.ctp:13
+#: /View/Themed/Admin/Users/view_admin.ctp:14
+#: /View/Themed/Example/Contacts/add.ctp:3
+msgid "Name"
+msgstr ""
+
+#: /View/Emails/html/contact.ctp:23
+#: /View/Themed/Admin/Comments/edit.ctp:20
+#: /View/Themed/Admin/Comments/view_admin.ctp:12
+#: /View/Themed/Admin/Contacts/add.ctp:4
+#: /View/Themed/Admin/Contacts/view.ctp:13
+#: /View/Themed/Admin/Contacts/view_admin.ctp:10
+#: /View/Themed/Admin/Users/add.ctp:24
+#: /View/Themed/Admin/Users/edit.ctp:28
+#: /View/Themed/Example/Contacts/add.ctp:4
+msgid "E-mail"
+msgstr ""
+
+#: /View/Emails/html/contact.ctp:25
+#: /View/Themed/Admin/Contacts/add.ctp:5
+#: /View/Themed/Admin/Contacts/view.ctp:15
+#: /View/Themed/Example/Contacts/add.ctp:5
+msgid "Telephone"
+msgstr ""
+
+#: /View/Helper/CommentHelper.php:56
+msgid "No comment"
+msgstr ""
+
+#: /View/Helper/CommentHelper.php:79
+msgid "Reply"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/add.ctp:3
+#: /View/Themed/Admin/Categories/edit.ctp:4
+msgid "List categories"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/add.ctp:8;30
+#: /View/Themed/Admin/Galleries/add.ctp:23
+#: /View/Themed/Admin/Galleries/add_iframe.ctp:19
+#: /View/Themed/Admin/Groups/add.ctp:17
+#: /View/Themed/Admin/Images/add.ctp:43
+#: /View/Themed/Admin/Images/add_iframe.ctp:36
+#: /View/Themed/Admin/Inputs/add.ctp:7;35
+#: /View/Themed/Admin/Inputs/edit.ctp:8
+#: /View/Themed/Admin/Options/add.ctp:7;29
+#: /View/Themed/Admin/Options/edit.ctp:7
+#: /View/Themed/Admin/Pages/add.ctp:7;92
+#: /View/Themed/Admin/Positions/add.ctp:8;24
+#: /View/Themed/Admin/Positions/edit.ctp:8
+#: /View/Themed/Admin/Posts/add.ctp:7;91
+#: /View/Themed/Admin/Templates/add.ctp:8;30
+#: /View/Themed/Admin/Templates/edit.ctp:8
+#: /View/Themed/Admin/Users/add.ctp:7;91
+#: /View/Themed/Admin/Users/edit.ctp:11
+#: /View/Themed/Admin/Users/view_admin.ctp:7
+#: /View/Themed/Admin/Widgets/add.ctp:7;29
+msgid "Add"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/add.ctp:13
+msgid "Parent category"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/add.ctp:25
+msgid "Descritption"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:3
+#: /View/Themed/Admin/Categories/view_admin.ctp:3
+msgid "Add category"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:5
+msgid "Delete category"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:5
+#: /View/Themed/Admin/Categories/view_admin.ctp:31
+msgid "Want to delete this category?"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:10;33
+#: /View/Themed/Admin/Categories/view_admin.ctp:26
+#: /View/Themed/Admin/Comments/edit.ctp:38
+#: /View/Themed/Admin/Comments/view_admin.ctp:42
+#: /View/Themed/Admin/Galleries/edit.ctp:9;26
+#: /View/Themed/Admin/Galleries/view_admin.ctp:30
+#: /View/Themed/Admin/Groups/edit.ctp:9;20
+#: /View/Themed/Admin/Groups/view_admin.ctp:28
+#: /View/Themed/Admin/Images/edit.ctp:9;38
+#: /View/Themed/Admin/Inputs/edit.ctp:37
+#: /View/Themed/Admin/Inputs/view_admin.ctp:30
+#: /View/Themed/Admin/Options/edit.ctp:32
+#: /View/Themed/Admin/Options/view_admin.ctp:40
+#: /View/Themed/Admin/Pages/edit.ctp:9;103
+#: /View/Themed/Admin/Pages/view_admin.ctp:30
+#: /View/Themed/Admin/Positions/edit.ctp:25
+#: /View/Themed/Admin/Positions/view_admin.ctp:28
+#: /View/Themed/Admin/Posts/edit.ctp:9;101
+#: /View/Themed/Admin/Posts/view_admin.ctp:32
+#: /View/Themed/Admin/Templates/edit.ctp:33
+#: /View/Themed/Admin/Templates/view_admin.ctp:28
+#: /View/Themed/Admin/Users/edit.ctp:102
+#: /View/Themed/Admin/Users/view_admin.ctp:30
+#: /View/Themed/Admin/Widgets/edit.ctp:11;36
+msgid "Edit"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:15
+msgid "Parent Category"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/edit.ctp:27
+#: /View/Themed/Admin/Galleries/add.ctp:18
+#: /View/Themed/Admin/Galleries/add_iframe.ctp:14
+#: /View/Themed/Admin/Galleries/edit.ctp:20
+#: /View/Themed/Admin/Galleries/view_admin.ctp:15
+#: /View/Themed/Admin/Images/add.ctp:38
+#: /View/Themed/Admin/Images/add_iframe.ctp:31
+#: /View/Themed/Admin/Images/edit.ctp:32
+#: /View/Themed/Admin/Pages/edit.ctp:54
+#: /View/Themed/Admin/Posts/add.ctp:38
+#: /View/Themed/Admin/Posts/edit.ctp:40
+#: /View/Themed/Admin/Users/add.ctp:43
+#: /View/Themed/Admin/Users/edit.ctp:47
+msgid "Description"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/view_admin.ctp:7
+#: /View/Themed/Admin/Layouts/admin.ctp:130
+#: /View/Themed/Admin/Menus/view_admin.ctp:38
+#: /View/Themed/Admin/Posts/add.ctp:51
+#: /View/Themed/Admin/Posts/edit.ctp:60
+#: /View/Themed/Admin/Posts/view_admin.ctp:15
+#: /View/Themed/Example/Elements/sidebar.ctp:11
+msgid "Categories"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/view_admin.ctp:14
+#: /View/Themed/Admin/Galleries/view_admin.ctp:14
+#: /View/Themed/Admin/Images/add.ctp:20
+#: /View/Themed/Admin/Images/add_iframe.ctp:19
+#: /View/Themed/Admin/Images/view_admin.ctp:16
+#: /View/Themed/Admin/Inputs/add.ctp:24
+#: /View/Themed/Admin/Inputs/edit.ctp:25
+#: /View/Themed/Admin/Options/add.ctp:12
+#: /View/Themed/Admin/Options/edit.ctp:13
+#: /View/Themed/Admin/Options/view_admin.ctp:16
+#: /View/Themed/Admin/Pages/add.ctp:40
+#: /View/Themed/Admin/Pages/edit.ctp:42
+#: /View/Themed/Admin/Pages/view_admin.ctp:14
+#: /View/Themed/Admin/Posts/add.ctp:26
+#: /View/Themed/Admin/Posts/edit.ctp:28
+#: /View/Themed/Admin/Posts/view_admin.ctp:14
+#: /View/Themed/Admin/Templates/view_admin.ctp:15
+#: /View/Themed/Admin/Widgets/add.ctp:12
+#: /View/Themed/Admin/Widgets/edit.ctp:16
+#: /View/Themed/Admin/Widgets/view_admin.ctp:16
+msgid "Title"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/view_admin.ctp:15
+#: /View/Themed/Admin/Comments/view_admin.ctp:16
+#: /View/Themed/Admin/Contacts/view_admin.ctp:12
+#: /View/Themed/Admin/Galleries/view_admin.ctp:16
+#: /View/Themed/Admin/Groups/view_admin.ctp:16
+#: /View/Themed/Admin/Images/view_admin.ctp:17
+#: /View/Themed/Admin/Inputs/view_admin.ctp:16
+#: /View/Themed/Admin/Layouts/admin.ctp:97
+#: /View/Themed/Admin/Options/view_admin.ctp:9;21
+#: /View/Themed/Admin/Pages/view_admin.ctp:17
+#: /View/Themed/Admin/Positions/view_admin.ctp:16
+#: /View/Themed/Admin/Posts/view_admin.ctp:18
+#: /View/Themed/Admin/Templates/view_admin.ctp:16
+#: /View/Themed/Admin/Users/view_admin.ctp:17
+#: /View/Themed/Admin/Widgets/view_admin.ctp:20
+msgid "Options"
+msgstr ""
+
+#: /View/Themed/Admin/Categories/view_admin.ctp:29
+#: /View/Themed/Admin/Comments/view_admin.ctp:45
+#: /View/Themed/Admin/Contacts/view_admin.ctp:27
+#: /View/Themed/Admin/Galleries/view_admin.ctp:32
+#: /View/Themed/Admin/Groups/view_admin.ctp:31
+#: /View/Themed/Admin/Images/view_admin.ctp:34
+#: /View/Themed/Admin/Inputs/view_admin.ctp:32
+#: /View/Themed/Admin/Options/view_admin.ctp:43
+#: /View/Themed/Admin/Pages/edit.ctp:68;68
+#: /View/Themed/Admin/Pages/view_admin.ctp:33
+#: /View/Themed/Admin/Positions/view_admin.ctp:31
+#: /View/Themed/Admin/Posts/edit.ctp:54;54
+#: /View/Themed/Admin/Posts/view_admin.ctp:35
+#: /View/Themed/Admin/Templates/view_admin.ctp:31
+#: /View/Themed/Admin/Users/view_admin.ctp:33
+#: /View/Themed/Admin/Widgets/view_admin.ctp:40
+msgid "Delete"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:3
+msgid "List comments"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:4
+msgid "Delete comment"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:4
+#: /View/Themed/Admin/Comments/view_admin.ctp:47
+msgid "Want to delete this comment?"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:9
+msgid "Edit comment"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:26
+msgid "Text"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/edit.ctp:32
+#: /View/Themed/Admin/Comments/view_admin.ctp:15
+msgid "Status"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/view_admin.ctp:4
+#: /View/Themed/Admin/Layouts/admin.ctp:131
+msgid "Comments"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/view_admin.ctp:13
+msgid "In"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/view_admin.ctp:14
+msgid "Created"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/view_admin.ctp:36
+msgid "accepted"
+msgstr ""
+
+#: /View/Themed/Admin/Comments/view_admin.ctp:38
+msgid "confirm"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/add.ctp:6
+#: /View/Themed/Example/Contacts/add.ctp:6
+msgid "Message"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/add.ctp:7
+msgid "Send"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/result.ctp:1
+msgid "E-mail sent"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view.ctp:3
+msgid "List messages"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view.ctp:7
+#: /View/Themed/Admin/Contacts/view_admin.ctp:3
+#: /View/Themed/Admin/Layouts/admin.ctp:102
+msgid "E-mails"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view.ctp:11
+msgid "Nome"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view_admin.ctp:11
+#: /View/Themed/Admin/Groups/view_admin.ctp:15
+#: /View/Themed/Admin/Pages/view_admin.ctp:15
+#: /View/Themed/Admin/Posts/view_admin.ctp:16
+#: /View/Themed/Admin/Users/view_admin.ctp:16
+msgid "Date"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view_admin.ctp:24
+msgid "View"
+msgstr ""
+
+#: /View/Themed/Admin/Contacts/view_admin.ctp:29
+msgid "Want to delete this contact?"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/add.ctp:3
+#: /View/Themed/Admin/Galleries/edit.ctp:4
+msgid "List galleries"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/add.ctp:7
+#: /View/Themed/Admin/Galleries/view_admin.ctp:3;7
+msgid "Add gallery"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/add_iframe.ctp:3
+msgid "Add Gallery"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/edit.ctp:3
+msgid "Add galery"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/edit.ctp:5
+#: /View/Themed/Admin/Images/add_iframe.ctp:2
+msgid "Delete gallery"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/edit.ctp:5
+#: /View/Themed/Admin/Galleries/view_admin.ctp:34
+msgid "Want to delete this gallery?"
+msgstr ""
+
+#: /View/Themed/Admin/Galleries/view_admin.ctp:13
+#: /View/Themed/Admin/Groups/view_admin.ctp:13
+#: /View/Themed/Admin/Images/view_admin.ctp:13
+#: /View/Themed/Admin/Inputs/view_admin.ctp:13
+#: /View/Themed/Admin/Options/view_admin.ctp:15
+#: /View/Themed/Admin/Pages/view_admin.ctp:13
+#: /View/Themed/Admin/Posts/view_admin.ctp:13
+#: /View/Themed/Admin/Users/view_admin.ctp:13
+#: /View/Themed/Admin/Widgets/view_admin.ctp:15
+msgid "Id"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/add.ctp:3
+msgid "List groups"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/add.ctp:7
+msgid "Add groups"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/edit.ctp:3
+#: /View/Themed/Admin/Groups/view_admin.ctp:3
+msgid "Add group"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/edit.ctp:4
+msgid "List group"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/edit.ctp:5
+msgid "Delete group"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/edit.ctp:5
+msgid "Want to delete this group?"
+msgstr ""
+
+#: /View/Themed/Admin/Groups/view_admin.ctp:7
+#: /View/Themed/Admin/Layouts/admin.ctp:185
+msgid "Groups"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add.ctp:3
+#: /View/Themed/Admin/Images/edit.ctp:4
+msgid "List images"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add.ctp:7
+#: /View/Themed/Admin/Images/add_iframe.ctp:7
+#: /View/Themed/Admin/Images/view_admin.ctp:7;14
+#: /View/Themed/Admin/Layouts/admin.ctp:179
+msgid "Images"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add.ctp:13
+#: /View/Themed/Admin/Images/edit.ctp:14
+#: /View/Themed/Admin/Images/view_admin.ctp:15
+#: /View/Themed/Admin/Pages/add.ctp:23
+#: /View/Themed/Admin/Pages/edit.ctp:25
+#: /View/Themed/Admin/Posts/add.ctp:23
+#: /View/Themed/Admin/Posts/edit.ctp:25
+msgid "Gallery"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add.ctp:26
+#: /View/Themed/Admin/Images/add_iframe.ctp:13
+#: /View/Themed/Admin/Pages/add.ctp:58
+#: /View/Themed/Admin/Pages/edit.ctp:60
+#: /View/Themed/Admin/Posts/add.ctp:44
+#: /View/Themed/Admin/Posts/edit.ctp:46
+msgid "Image"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add.ctp:32
+#: /View/Themed/Admin/Images/add_iframe.ctp:25
+#: /View/Themed/Admin/Images/edit.ctp:26
+msgid "Link"
+msgstr ""
+
+#: /View/Themed/Admin/Images/add_iframe.ctp:41
+msgid "To arrange press and move the images"
+msgstr ""
+
+#: /View/Themed/Admin/Images/edit.ctp:3
+#: /View/Themed/Admin/Images/view_admin.ctp:3
+msgid "Add image"
+msgstr ""
+
+#: /View/Themed/Admin/Images/edit.ctp:5
+msgid "Delete image"
+msgstr ""
+
+#: /View/Themed/Admin/Images/edit.ctp:5
+msgid "Want to delete this image?"
+msgstr ""
+
+#: /View/Themed/Admin/Images/edit.ctp:20
+msgid "Titulo"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/add.ctp:3
+#: /View/Themed/Admin/Inputs/edit.ctp:3
+msgid "List inputs"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/add.ctp:12
+#: /View/Themed/Admin/Inputs/edit.ctp:13
+#: /View/Themed/Admin/Inputs/view_admin.ctp:14
+#: /View/Themed/Admin/Pages/add.ctp:12
+#: /View/Themed/Admin/Pages/edit.ctp:14
+#: /View/Themed/Admin/Posts/add.ctp:12
+#: /View/Themed/Admin/Posts/edit.ctp:14
+#: /View/Themed/Admin/Templates/view_admin.ctp:7
+msgid "Template"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/add.ctp:14
+#: /View/Themed/Admin/Inputs/edit.ctp:15
+#: /View/Themed/Admin/Menus/view_admin.ctp:28;40
+msgid "Empty"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/add.ctp:18
+#: /View/Themed/Admin/Inputs/edit.ctp:19
+msgid "Type"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/edit.ctp:4
+msgid "Delete input"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/edit.ctp:4
+msgid "Want to delete this input?"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/view_admin.ctp:3
+msgid "Add input"
+msgstr ""
+
+#: /View/Themed/Admin/Inputs/view_admin.ctp:7
+#: /View/Themed/Admin/Layouts/admin.ctp:167
+msgid "Inputs"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:8
+#: /View/Themed/Admin/Users/login.ctp:4
+msgid "Painel control"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:39;64
+msgid "eng"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:125
+msgid "Blog"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:126
+msgid "blog posts"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:136
+#: /View/Themed/Admin/Pages/view_admin.ctp:7
+msgid "Pages"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:137;143;199
+msgid "of site"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:142
+#: /View/Themed/Admin/Widgets/view_admin.ctp:9
+msgid "Widgets"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:148
+msgid "Menus"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:149
+msgid "of navigate"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:155
+msgid "Position"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:156
+msgid "the menu"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:161
+msgid "Templates"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:162
+msgid "model pages"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:168
+msgid "of template"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:173
+msgid "Galleries"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:174
+msgid "of images"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:180
+msgid "of gallery"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:186
+msgid "of users"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:191
+#: /View/Themed/Admin/Users/view_admin.ctp:15
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:40
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:91
+#: /Plugin/Acl/View/Elements/design/header.ctp:14
+msgid "Permissions"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:192
+msgid "of access"
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/admin.ctp:198
+msgid "Users"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:3
+msgid "Add item"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:8
+msgid "Menu position"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:20
+msgid "Custon URL"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:26
+#: /View/Themed/Admin/Widgets/view_admin.ctp:18
+msgid "Page"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:32
+msgid "Open in new window"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:43
+msgid "Add to menu"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:49
+msgid "Order"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:56
+msgid "Filter"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:66
+msgid "Remove"
+msgstr ""
+
+#: /View/Themed/Admin/Menus/view_admin.ctp:79
+msgid "Save order"
+msgstr ""
+
+#: /View/Themed/Admin/Options/add.ctp:3
+msgid "List Options"
+msgstr ""
+
+#: /View/Themed/Admin/Options/add.ctp:18
+#: /View/Themed/Admin/Options/edit.ctp:19
+#: /View/Themed/Admin/Options/view_admin.ctp:18
+#: /View/Themed/Admin/Widgets/add.ctp:18
+#: /View/Themed/Admin/Widgets/edit.ctp:23
+msgid "Key"
+msgstr ""
+
+#: /View/Themed/Admin/Options/add.ctp:24
+#: /View/Themed/Admin/Options/edit.ctp:26
+#: /View/Themed/Admin/Options/view_admin.ctp:20
+#: /View/Themed/Admin/Widgets/add.ctp:24
+msgid "Value"
+msgstr ""
+
+#: /View/Themed/Admin/Options/edit.ctp:3
+msgid "List options"
+msgstr ""
+
+#: /View/Themed/Admin/Options/view_admin.ctp:4
+msgid "Add option"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/add.ctp:3
+#: /View/Themed/Admin/Pages/edit.ctp:4
+msgid "List pages"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/add.ctp:46
+#: /View/Themed/Admin/Pages/edit.ctp:48
+#: /View/Themed/Admin/Posts/add.ctp:32
+#: /View/Themed/Admin/Posts/edit.ctp:34
+#: /View/Themed/Admin/Widgets/edit.ctp:30
+msgid "Content"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/add.ctp:52
+msgid "description"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/add.ctp:64
+#: /View/Themed/Admin/Pages/edit.ctp:73
+#: /View/Themed/Admin/Posts/add.ctp:57
+#: /View/Themed/Admin/Posts/edit.ctp:66
+msgid "Advanced options"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/edit.ctp:3
+#: /View/Themed/Admin/Pages/view_admin.ctp:3
+msgid "Add page"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/edit.ctp:5
+msgid "Delete page"
+msgstr ""
+
+#: /View/Themed/Admin/Pages/view_admin.ctp:16
+#: /View/Themed/Admin/Posts/view_admin.ctp:17
+msgid "Visualizations"
+msgstr ""
+
+#: /View/Themed/Admin/Positions/add.ctp:3
+#: /View/Themed/Admin/Positions/edit.ctp:3
+msgid "List positions"
+msgstr ""
+
+#: /View/Themed/Admin/Positions/add.ctp:19
+#: /View/Themed/Admin/Positions/edit.ctp:19
+#: /View/Themed/Admin/Positions/view_admin.ctp:15
+msgid "Slug"
+msgstr ""
+
+#: /View/Themed/Admin/Positions/view_admin.ctp:3
+msgid "Add position"
+msgstr ""
+
+#: /View/Themed/Admin/Positions/view_admin.ctp:7
+msgid "Positions"
+msgstr ""
+
+#: /View/Themed/Admin/Positions/view_admin.ctp:33
+msgid "Want to delete this position?"
+msgstr ""
+
+#: /View/Themed/Admin/Posts/add.ctp:3
+#: /View/Themed/Admin/Posts/edit.ctp:4
+msgid "List posts"
+msgstr ""
+
+#: /View/Themed/Admin/Posts/add.ctp:80
+#: /View/Themed/Admin/Posts/edit.ctp:89
+msgid "Author"
+msgstr ""
+
+#: /View/Themed/Admin/Posts/edit.ctp:3
+#: /View/Themed/Admin/Posts/view_admin.ctp:3
+msgid "Add post"
+msgstr ""
+
+#: /View/Themed/Admin/Posts/edit.ctp:5
+msgid "Delete post"
+msgstr ""
+
+#: /View/Themed/Admin/Posts/view_admin.ctp:7
+msgid "Posts"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/add.ctp:3
+#: /View/Themed/Admin/Templates/edit.ctp:3
+msgid "List templates"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/add.ctp:19
+#: /View/Themed/Admin/Templates/edit.ctp:19
+msgid "File"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/add.ctp:25
+#: /View/Themed/Admin/Templates/edit.ctp:26
+#: /View/Themed/Admin/Templates/view_admin.ctp:14
+msgid "Icon"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/edit.ctp:23
+msgid "Actual:"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/view_admin.ctp:3
+msgid "Add template"
+msgstr ""
+
+#: /View/Themed/Admin/Templates/view_admin.ctp:33
+msgid "Want to delete this template?"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:3
+#: /View/Themed/Admin/Users/edit.ctp:5
+msgid "List users"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:12
+#: /View/Themed/Admin/Users/edit.ctp:16
+msgid "First name"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:18
+msgid "Last Name"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:30
+#: /View/Themed/Admin/Users/edit.ctp:34
+#: /View/Themed/Admin/Users/login.ctp:13
+msgid "User name"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:36
+#: /View/Themed/Admin/Users/edit.ctp:40
+#: /View/Themed/Admin/Users/login.ctp:19
+msgid "Password"
+msgstr ""
+
+#: /View/Themed/Admin/Users/add.ctp:80
+#: /View/Themed/Admin/Users/edit.ctp:90
+msgid "Group"
+msgstr ""
+
+#: /View/Themed/Admin/Users/edit.ctp:4
+#: /View/Themed/Admin/Users/view_admin.ctp:3
+msgid "Add user"
+msgstr ""
+
+#: /View/Themed/Admin/Users/edit.ctp:6
+msgid "Delete user"
+msgstr ""
+
+#: /View/Themed/Admin/Users/edit.ctp:6
+msgid "Want to delete this user?"
+msgstr ""
+
+#: /View/Themed/Admin/Users/edit.ctp:22
+msgid "Last name"
+msgstr ""
+
+#: /View/Themed/Admin/Widgets/add.ctp:3
+#: /View/Themed/Admin/Widgets/edit.ctp:4
+#: /View/Themed/Admin/Widgets/view_admin.ctp:4
+msgid "Add widget"
+msgstr ""
+
+#: /View/Themed/Admin/Widgets/edit.ctp:5
+msgid "List widget"
+msgstr ""
+
+#: /View/Themed/Admin/Widgets/edit.ctp:6
+msgid "Delete widget"
+msgstr ""
+
+#: /View/Themed/Example/Elements/comments.ctp:6
+msgid "Name (*)"
+msgstr ""
+
+#: /View/Themed/Example/Elements/comments.ctp:7
+msgid "E-mail (*)"
+msgstr ""
+
+#: /View/Themed/Example/Elements/comments.ctp:8
+msgid "Comment (*)"
+msgstr ""
+
+#: /View/Themed/Example/Elements/comments.ctp:11
+msgid "Comment"
+msgstr ""
+
+#: /View/Themed/Example/Elements/loop.ctp:30
+msgid "«"
+msgstr ""
+
+#: /View/Themed/Example/Elements/loop.ctp:32
+msgid "»"
+msgstr ""
+
+#: /View/Themed/Example/Elements/loop.ctp:36
+msgid "Not Found"
+msgstr "Não encontrado"
+
+#: /View/Themed/Example/Elements/sidebar.ctp:16
+msgid "Popular posts"
+msgstr ""
+
+#: /Plugin/Acl/Controller/AclAppController.php:74
+msgid "The role model name is unknown. The ACL plugin bootstrap.php file has to be loaded in order to work. (see the README file)"
+msgstr ""
+
+#: /Plugin/Acl/Controller/AcosController.php:26
+msgid "The ACO table has been cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/AcosController.php:30
+msgid "The ACO table could not be cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:204
+msgid "The user role has been updated"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:208
+msgid "The user role could not be updated"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:395;493
+msgid "The user '%s' does not exist in the ARO table"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:471
+msgid "The permissions have been cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:475
+msgid "The permissions could not be cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:499
+msgid "The specific permissions have been cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:503
+msgid "The specific permissions could not be cleared"
+msgstr ""
+
+#: /Plugin/Acl/Controller/ArosController.php:522;544
+msgid "The role '%s' does not exist in the ARO table"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:41
+msgid "the %s directory is not writable"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:275
+msgid "Created Aco node for controllers"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:313
+msgid "Created Aco node for %s plugin"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:340
+msgid "Created Aco node for %s/%s"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:352;379
+msgid "Created Aco node for %s"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:480
+msgid "Aco node '%s' has been deleted"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:484
+msgid "Aco node '%s' could not be deleted"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:569;581
+msgid "An error occured while saving the specific permission"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:603
+msgid "An error occured while deleting the specific permission"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:613
+msgid "The specific permission id could not be retrieved"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:622
+msgid "The child ACO id could not be retrieved"
+msgstr ""
+
+#: /Plugin/Acl/Controller/Component/AclManagerComponent.php:635
+msgid "Invalid ARO"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:15
+msgid "The following actions ACOs have been created"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:22
+msgid "There was no new actions ACOs to create"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:29
+msgid "This page allows you to build missing actions ACOs if any."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:36
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:12
+msgid "Missing ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:45
+msgid "Clicking the link will not destroy existing actions ACOs."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:49
+#: /Plugin/Acl/View/Aros/admin_check.ctp:43
+msgid "Build"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_build_acl.ctp:55
+msgid "There is no ACO node to create"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_empty_acos.ctp:12
+msgid "This page allows you to clear all actions ACOs."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_empty_acos.ctp:18
+msgid "Clicking the link will destroy all existing actions ACOs and associated permissions."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_empty_acos.ctp:22
+msgid "Clear ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_empty_acos.ctp:22
+msgid "Are you sure you want to destroy all existing ACOs ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:8
+msgid "Some controllers have been modified, resulting in actions that are not referenced as ACO in the database or ACO records that are obsolete"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:21
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:28
+msgid "Obsolete ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:29
+msgid "You can update the ACOs by clicking on the following link"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:30
+msgid "Synchronize ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_has_updates.ctp:34
+msgid "Please be aware that this message will appear only once. But you can always rebuild the ACOs by going to the ACO tab."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:15
+msgid "The following actions ACOs have been pruned"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:22
+msgid "There was no actions ACOs to prune"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:29
+msgid "Esta página permite que você delete os ACOS obsoletos."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:36
+msgid "Obsolete ACO nodes"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:45
+msgid "Clicking the link will not change or remove permissions for actions ACOs that are not obsolete."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:49
+msgid "Prune"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_prune_acos.ctp:55
+msgid "There is no ACO node to delete"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:12
+msgid "New ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:24
+msgid "Sem novos ACOs para criar"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:40
+msgid "Sem ACO para deletar"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:47
+msgid "Esta página permite que você sincronize os controladores existentes e ações com a tabela de dados ACO."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:56
+msgid "ACOs Deletados"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:67
+msgid "ACO Obsoleto"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:81
+msgid "Clicking the link will not change or remove permissions for existing actions ACOs."
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:85
+msgid "Synchronize"
+msgstr ""
+
+#: /Plugin/Acl/View/Acos/admin_synchronize.ctp:91
+msgid "ACO sincronizado com a base de dados."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:15
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Clear permissions table"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:15
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:17
+msgid "Are you sure you want to delete all roles and users permissions ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:22
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:29
+msgid "grant access to <em>all actions</em>"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:23
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:30
+msgid "deny access to <em>all actions</em>"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:33
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:40
+msgid "Are you sure you want to grant access to all actions of each controller to the role '%s' ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:34
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:41
+msgid "Are you sure you want to deny access to all actions of each controller to the role '%s' ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:52
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:59
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "action"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:95;161
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:93;140
+msgid "loading"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:100;166
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:98;145
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:118;200
+#: /Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: /Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+#: /Plugin/Acl/View/Aros/ajax_user_denied.ctp:12
+#: /Plugin/Acl/View/Aros/ajax_user_granted.ctp:12
+msgid "The ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_role_permissions.ctp:129
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:117
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:147
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:178
+msgid "Plugin"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:12
+msgid "User"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:14
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:65
+msgid "Role"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:30
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:81
+#: /Plugin/Acl/View/Aros/admin_users.ctp:49
+msgid "Update the user role"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:46
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:97
+msgid "This user has specific permissions"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:99
+msgid "Clear"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:48
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:99
+msgid "Are you sure you want to clear the permissions specific to this user ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:60
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:111
+msgid "authorization"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:162
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:222
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:237
+msgid "authorized"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_ajax_user_permissions.ctp:164
+#: /Plugin/Acl/View/Aros/admin_role_permissions.ctp:224
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:239
+msgid "blocked"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_check.ctp:12
+msgid "Roles without corresponding Aro"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_check.ctp:27
+msgid "Users without corresponding Aro"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_check.ctp:49
+msgid "There is no missing ARO."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:11;18
+msgid "The <em>%s</em> model is not configured to act as an <em>ACL requester</em>"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:25
+msgid "In a classical ACL configuration, the models that represent the users and the roles must act as <em>ACL requesters</em> (see %s)."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:26
+msgid "Acts As a Requester"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_not_acl_requester.ctp:30
+msgid "If you wish, you can disable this alert by setting the ACL plugin parameter 'acl.check_act_as_requester' to <em>false</em>."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:19
+#: /Plugin/Acl/View/Aros/admin_users.ctp:12
+msgid "filter"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:26
+msgid "user"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:35
+msgid "Manage user specific rights"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:50
+#: /Plugin/Acl/View/Aros/admin_users.ctp:61
+msgid "previous"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_user_permissions.ctp:54
+#: /Plugin/Acl/View/Aros/admin_users.ctp:65
+msgid "next"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_users.ctp:20
+msgid "name"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/admin_users.ctp:77
+msgid "Some users AROS are missing. Click on a role to assign one to a user."
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/ajax_role_denied.ctp:6
+#: /Plugin/Acl/View/Aros/ajax_role_granted.ctp:6
+msgid "The role node does not exist in the ARO table"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/ajax_user_denied.ctp:8
+#: /Plugin/Acl/View/Aros/ajax_user_granted.ctp:8
+msgid "The user node does not exist in the ARO table"
+msgstr ""
+
+#: /Plugin/Acl/View/Aros/ajax_user_denied.ctp:16
+#: /Plugin/Acl/View/Aros/ajax_user_granted.ctp:16
+msgid "The ARO or the ACO node is probably missing. Please try to rebuild the ACOs first."
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Acos/links.ctp:6
+msgid "Synchronize actions ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Acos/links.ctp:6;7;9
+msgid "are you sure ?"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Acos/links.ctp:7
+msgid "Clear actions ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Acos/links.ctp:8
+msgid "Build actions ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Acos/links.ctp:9
+msgid "Prune actions ACOs"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Aros/links.ctp:5
+msgid "Build missing AROs"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Aros/links.ctp:6
+msgid "Users roles"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Aros/links.ctp:9;13
+msgid "Roles permissions"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/Aros/links.ctp:15
+msgid "Users permissions"
+msgstr ""
+
+#: /Plugin/Acl/View/Elements/design/header.ctp:15
+msgid "Actions"
+msgstr ""
+
+#: /Plugin/Acl/View/Errors/missing_aco_nodes.ctp:7
+msgid "go to homepage"
+msgstr ""
+
+#: /Plugin/Uploader/Model/Behavior/AttachmentBehavior.php:230
+msgid "There was an error uploading this file, please try again."
+msgstr ""
+
+#: /Plugin/Uploader/Model/Behavior/AttachmentBehavior.php:264
+msgid "An error occured during image %s transformation."
+msgstr ""
+
+#: /View/Errors/error400.ctp:21
+#: /View/Errors/error500.ctp:21
+msgid "Error"
+msgstr ""
+
+#: /View/Errors/error400.ctp:23
+msgid "The requested address %s was not found on this server."
+msgstr ""
+
+#: /View/Errors/error500.ctp:22
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: /View/Themed/Admin/Layouts/error.ctp:19
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: /webroot/test.php:87
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
