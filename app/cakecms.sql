@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tempo de Geração: 17/03/2013 às 00:00:37
+-- Tempo de Geração: 17/03/2013 às 01:38:05
 -- Versão do Servidor: 5.5.29
 -- Versão do PHP: 5.4.6-1ubuntu1.2
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Banco de Dados: `cakecms`
+-- Banco de Dados: `leaodatribo`
 --
 
 -- --------------------------------------------------------
@@ -809,8 +809,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `created`, `modified`, `user_id`, `first_name`, `last_name`, `username`, `password`, `email`, `description`, `facebook`, `twitter`, `google+`, `pinterest`, `flickr`, `linkedin`, `group_id`, `mobile_no`, `published`) VALUES
-(1, '2012-12-15 19:44:26', '2013-03-03 22:41:01', 1, 'Administrador', 'Do Sistema', 'admin', 'ce09b95ad9725c19130b1a4ab5270b4447dad98f', 'willychagasss@gmail.com', '<p>\r\n	<img alt="" src="/demo/app/webroot/js/admin/ckeditor/ckfinder/userfiles/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px; " /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; ">Willy Chagas seGuys is reponsive, flexible, highly customizable and loaded with options. It comes with over 200 shortcodes and element</span></p>\r\n', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 1, '', 1),
-(2, '2012-12-16 01:15:58', '2013-03-14 02:51:07', 1, 'Administrador', 'Do Sistema', 'administrador', 'ce09b95ad9725c19130b1a4ab5270b4447dad98f', 'administrador@cakecms.com.br', '<p>\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; ">Carlos Henrique&nbsp;</span><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px;">aos 112 anos de nascimento do inventor norte-americano &nbsp;criou um ve&iacute;culo reparador de gelo bastante utilizado at&eacute; hoje nas pistas de patina&ccedil;&atilde;o.</span></p>\r\n', '', '', '', '', '', '', 2, '', 1);
+(1, '2012-12-15 19:44:26', '2013-03-17 04:37:52', 1, 'Developer', 'System', 'dev', 'c27b35e36b3f28bfe0d61fcdd723db0b693fc123', 'dev@cakecms.com.br', '<p>\r\n	<img alt="" src="/app/webroot/js/admin/ckeditor/ckfinder/userfiles/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; ">Willy Chagas seGuys is reponsive, flexible, highly customizable and loaded with options. It comes with over 200 shortcodes and element</span></p>\r\n', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 1, '', 1),
+(2, '2012-12-16 01:15:58', '2013-03-17 04:37:39', 1, 'Administrador', 'System', 'admin', 'c27b35e36b3f28bfe0d61fcdd723db0b693fc123', 'admin@cakecms.com.br', '', '', '', '', '', '', '', 2, '', 1);
 
 -- --------------------------------------------------------
 
