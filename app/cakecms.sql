@@ -1,13 +1,14 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.3
+-- version 3.4.11.1deb1
 -- http://www.phpmyadmin.net
 --
--- Servidor: mysql03-farm31.uni5.net
--- Tempo de Geração: Mar 16, 2013 as 01:07 AM
--- Versão do Servidor: 5.6.10
--- Versão do PHP: 5.2.17
+-- Servidor: localhost
+-- Tempo de Geração: 17/03/2013 às 00:00:37
+-- Versão do Servidor: 5.5.29
+-- Versão do PHP: 5.4.6-1ubuntu1.2
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -588,11 +589,6 @@ CREATE TABLE IF NOT EXISTS `inputs` (
   KEY `template` (`template_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
---
--- Extraindo dados da tabela `inputs`
---
-
-
 -- --------------------------------------------------------
 
 --
@@ -644,10 +640,10 @@ CREATE TABLE IF NOT EXISTS `options` (
 --
 
 INSERT INTO `options` (`id`, `title`, `key`, `value`) VALUES
-(1, 'Title', 'title', 'Demo'),
-(2, 'Description', 'description', 'CakeCMS'),
-(3, 'Keywords', 'keywords', 'cakecms, cms cakephp'),
-(4, 'E-mails to contact form.', 'cakecms_emails', 'youremail@gmail.com'),
+(1, 'Titulo do Site', 'title', 'DemostraÃ§Ã£o de sites desenvolvido com CakeCMS.'),
+(2, 'DescriÃ§Ã£o do site', 'description', 'Veja o exemplo de utilizaÃ§Ã£o do CakeCMS'),
+(3, 'Palavras-Chave (Utilizado na pesquisa do Google)', 'keywords', 'cakecms, cakephp, cms'),
+(4, 'E-mails utilizados no formulÃ¡rio de contato.', 'cakecms_emails', 'cakecms@gmail.com'),
 (5, 'Vimeo', 'social_vimeo', 'http://www.google.com.br'),
 (6, 'Facebook', 'social_facebook', 'http://www.google.com.br'),
 (7, 'Linkedin', 'social_linkedin', 'http://www.google.com.br'),
@@ -655,7 +651,8 @@ INSERT INTO `options` (`id`, `title`, `key`, `value`) VALUES
 (9, 'Pinterest', 'social_pinterest', 'http://www.google.com.br'),
 (10, 'Flickr', 'social_flickr', 'http://www.google.com.br'),
 (11, 'Theme', 'cakecms_theme', 'Example'),
-(12, 'Base Url', 'cakecms_base_url', '/'),
+(12, 'Base Url', 'cakecms_base_url', '/cakecms/'),
+(13, 'E-mails', 'cakecms_emails', 'willychagass@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -693,8 +690,8 @@ CREATE TABLE IF NOT EXISTS `pages` (
 --
 
 INSERT INTO `pages` (`id`, `user_id`, `parent_id`, `gallery_id`, `slug`, `title`, `description`, `thumb`, `text`, `title_page`, `description_page`, `keywords_page`, `template_id`, `created`, `modified`, `order`, `published`, `views`) VALUES
-(1, 1, 0, NULL, 'Example_of_page', 'Example of page', '', '/files/uploads/default.jpg', '<p>\r\n	&nbsp;</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/typical-cake-request.png" style="width: 300px; height: 197px; margin-right: 15px; margin-left: 15px; float: left;" />has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n', '', '', '', 1, '2013-03-14 19:12:54', '2013-03-16 01:05:56', 0, 1, 16),
-(2, 1, 0, 1, 'Gallery', 'Gallery', NULL, '/files/uploads/default.jpg', '<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n', '', '', '', 2, '2013-03-14 19:28:31', '2013-03-16 01:05:58', 0, 1, 11);
+(1, 1, 0, NULL, 'Example_of_page', 'Example of page', '', '/files/uploads/default.jpg', '<p>\r\n	&nbsp;</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/typical-cake-request.png" style="width: 300px; height: 197px; margin-right: 15px; margin-left: 15px; float: left;" />has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n<p style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">\r\n	Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes from a line in section 1.10.32.</p>\r\n', '', '', '', 1, '2013-03-14 22:12:54', '2013-03-16 01:40:33', 0, 1, 21),
+(2, 1, 0, 1, 'Gallery', 'Gallery', NULL, '/files/uploads/default.jpg', '<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n', '', '', '', 2, '2013-03-14 22:28:31', '2013-03-16 01:40:31', 0, 1, 18);
 
 -- --------------------------------------------------------
 
@@ -753,7 +750,7 @@ CREATE TABLE IF NOT EXISTS `posts` (
 --
 
 INSERT INTO `posts` (`id`, `user_id`, `parent_id`, `template_id`, `gallery_id`, `slug`, `title`, `description`, `title_page`, `description_page`, `keywords_page`, `thumb`, `text`, `created`, `modified`, `order`, `published`, `views`) VALUES
-(1, 2, 0, 1, NULL, 'Example_of_post', 'Example of post', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ''Content here, content here'', making it look like readable English.', '', '', '', '/files/uploads/default.jpg', '<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span><span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n', '2013-03-14 19:11:01', '2013-03-14 21:17:25', 0, 1, 6);
+(1, 2, 0, 1, NULL, 'Example_of_post', 'Example of post', 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ''Content here, content here'', making it look like readable English.', '', '', '', '/files/uploads/default.jpg', '<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span><span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n<p>\r\n	<span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &#39;Content here, content here&#39;, making it look like readable English.</span></p>\r\n', '2013-03-14 22:11:01', '2013-03-15 18:55:35', 0, 1, 17);
 
 -- --------------------------------------------------------
 
@@ -774,7 +771,7 @@ CREATE TABLE IF NOT EXISTS `templates` (
 --
 
 INSERT INTO `templates` (`id`, `name`, `file`, `icon`) VALUES
-(1, 'Default', 'view', '/files/uploads/padraocropped-110x110.png'),
+(1, 'Default', 'view', '/files/uploads/padraocropped-110x110cropped-110x110.png'),
 (2, 'Gallery', 'gallery', '/files/uploads/galeriacropped-110x110.png');
 
 -- --------------------------------------------------------
@@ -812,8 +809,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `created`, `modified`, `user_id`, `first_name`, `last_name`, `username`, `password`, `email`, `description`, `facebook`, `twitter`, `google+`, `pinterest`, `flickr`, `linkedin`, `group_id`, `mobile_no`, `published`) VALUES
-(1, '2012-12-15 19:44:26', '2013-03-16 01:04:13', 1, 'Developer', 'System', 'dev', 'c27b35e36b3f28bfe0d61fcdd723db0b693fc123', 'contato@cakecms.com.br', '', '', '', '', '', '', '', 1, '', 1),
-(2, '2012-12-16 01:15:58', '2013-03-16 01:03:03', 1, 'Administrador', 'System', 'administrador', 'c27b35e36b3f28bfe0d61fcdd723db0b693fc123', 'administrador@cakecms.com.br', '<p>\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(51, 51, 51); font-family: ''Lucida Grande'', lucida_granderegular, tahoma, arial; line-height: 18px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</span></p>\r\n', '', '', '', '', '', '', 2, '', 1);
+(1, '2012-12-15 19:44:26', '2013-03-03 22:41:01', 1, 'Administrador', 'Do Sistema', 'admin', 'ce09b95ad9725c19130b1a4ab5270b4447dad98f', 'willychagasss@gmail.com', '<p>\r\n	<img alt="" src="/demo/app/webroot/js/admin/ckeditor/ckfinder/userfiles/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px; " /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; ">Willy Chagas seGuys is reponsive, flexible, highly customizable and loaded with options. It comes with over 200 shortcodes and element</span></p>\r\n', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 'http://www.google.com.br', 1, '', 1),
+(2, '2012-12-16 01:15:58', '2013-03-14 02:51:07', 1, 'Administrador', 'Do Sistema', 'administrador', 'ce09b95ad9725c19130b1a4ab5270b4447dad98f', 'administrador@cakecms.com.br', '<p>\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; ">Carlos Henrique&nbsp;</span><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px;">aos 112 anos de nascimento do inventor norte-americano &nbsp;criou um ve&iacute;culo reparador de gelo bastante utilizado at&eacute; hoje nas pistas de patina&ccedil;&atilde;o.</span></p>\r\n', '', '', '', '', '', '', 2, '', 1);
 
 -- --------------------------------------------------------
 
@@ -838,7 +835,7 @@ CREATE TABLE IF NOT EXISTS `widgets` (
 --
 
 INSERT INTO `widgets` (`id`, `page_id`, `post_id`, `title`, `key`, `value`) VALUES
-(1, NULL, NULL, 'About', 'about', '<p>\r\n	<img alt="" src="/app/webroot/files/uploads/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px;">Willy Chagas seGuys is reponsive, flexible, highly customizable and loaded with options. It comes with over 200 shortcodes and element</span></p>\r\n');
+(1, NULL, NULL, 'About', 'about', '<p>\r\n	<img alt="" src="/cakecms/app/webroot/files/uploads/images/logo.png" style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px; margin-left: 10px; margin-right: 10px; float: left; width: 72px; height: 56px;" /><span style="color: rgb(119, 119, 119); font-family: Arial, sans-serif; line-height: 20px;">Willy Chagas seGuys is reponsive, flexible, highly customizable and loaded with options. It comes with over 200 shortcodes and element</span></p>\r\n');
 
 --
 -- Restrições para as tabelas dumpadas
@@ -903,3 +900,7 @@ ALTER TABLE `users`
 ALTER TABLE `widgets`
   ADD CONSTRAINT `widgets_ibfk_1` FOREIGN KEY (`page_id`) REFERENCES `pages` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `widgets_ibfk_2` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
